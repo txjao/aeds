@@ -1,26 +1,19 @@
 function twoSum(nums: number[], target: number): number[] {
+    let indexes, values = []
 
-    let indexes = []
-    let aux
-    let bool: boolean;
-    let index
+    nums.map((value, index) => {
 
-    nums.map((value, i) => {
-        bool = false
-        aux = value
-        index = i
-
-        nums.map((value, i) => {
-            if (index != i && aux + value == target) {
-                bool = true
-            }
-        })
-
-        if (bool) {
-            indexes.push(i)
+        console.log("condicional:", values.map(value => value + value == target))
+        if (values.map(value => value + value == target)) {
+            console.log("vetor", values)
+            values.push(nums.find((v, i) => index != i && value + v == target))
         }
+
+
+        return values
     })
 
-    console.log(indexes)
+    
+
     return indexes
 };
