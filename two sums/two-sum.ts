@@ -1,26 +1,14 @@
 function twoSum(nums: number[], target: number): number[] {
+    let indexes = [];
 
-    let indexes = []
-    let aux
-    let bool: boolean;
-    let index
-
-    nums.map((value, i) => {
-        bool = false
-        aux = value
-        index = i
-
-        nums.map((value, i) => {
-            if (index != i && aux + value == target) {
-                bool = true
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (value + nums[j] === target) {
+                indexes.push(i, j);
+                break;
             }
-        })
-
-        if (bool) {
-            indexes.push(i)
         }
-    })
+    }
 
-    console.log(indexes)
-    return indexes
-};
+    return indexes;
+}
