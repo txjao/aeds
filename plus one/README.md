@@ -1,6 +1,6 @@
 # Fourth Challenge
-I used @'s code as a reference <a href='https://leetcode.com/problems/plus-one/solutions/3534991/easy-to-understand-typescript-solution-in-o-n-57ms' target='_blank'> @hadyawayda
-</a>, I couldn't solve it because I didn't know how to manipulate bigints, I managed to solve it using a line like it
+*I used <a href='https://leetcode.com/problems/plus-one/solutions/3534991/easy-to-understand-typescript-solution-in-o-n-57ms' target='_blank'> @hadyawayda
+</a> code as a reference, I couldn't solve it because I didn't know how to manipulate bigints, I managed to solve it using a line like it
 
 *I learned how Numbers work in js and BigInts
 
