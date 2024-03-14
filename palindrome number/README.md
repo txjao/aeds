@@ -1,5 +1,5 @@
 # Third Challenge
-<a href='https://leetcode.com/problems/palindrome-number/description/' target='_blank'> Two Sum</a>
+<a href='https://leetcode.com/problems/palindrome-number/description/' target='_blank'> palindrome number</a>
 
 Given an integer x, return true if x is a palindrome, and false otherwise.
 
