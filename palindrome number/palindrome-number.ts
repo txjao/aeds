@@ -1,10 +1,10 @@
-function isPalindrome(x: number): boolean {
-    let numbers = x.toString().split('')
-    let number = numbers.reverse().values()
-    let aux = ''
-    for(let alg of number){
-        aux += alg
+function lengthOfLastWord(s: string): number {
+    let words = s.split(' ').filter(v => v != '')
+    let length
+
+    for (let i = words.length - 1; i != words.length; i++) {
+        length = words[i].length
     }
-    
-    return aux === x.toString() ? true : false
+
+    return length
 };
